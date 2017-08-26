@@ -1,6 +1,6 @@
 This script helps in mass creation of pogo ptc accounts.
 
-requirements: Linux, tor, 2captcha api-key, java runtime
+requirements: Linux, tor, 2captcha api-key, java runtime, and OH, a catch-all emailadres like whateveryouwant@yourhost.com would come in handy.
 
 ```sudo apt-get -y update && sudo apt-get -y install tor && sudo apt-get install -y default-jre```
 
