@@ -126,8 +126,8 @@ accounts+=("${username};${password};${email};${dob};${country}")
         i=0
 
         # create the actual accounts using KinanCity-core
-        java -jar "${KINANCITY_JAR}" -t 100 -nl -npc -a ${csv} -px $(printf '%s' "[" ${proxies[@]} "]" ) -ck 04fe42680e60edcc847b4d9fc3b1e899
-	## -t 100
+        java -jar "${KINANCITY_JAR}" -t 100 -nl -npc -a ${csv} -px $(printf '%s' "[" ${proxies[@]} "]" ) 
+	
 
         # remove the temp csv
         rm -f "${csv}"
