@@ -4,7 +4,7 @@ requirements: Linux, tor, 2captcha api-key, java runtime, and OH, a catch-all em
 
 ```sudo apt-get -y update && sudo apt-get -y install tor default-jre```
 
-in config.properties -> put your 2captcha API-Key between the square backets
+in config.properties -> put your 2captcha API-Key (remove the brackets)
 
 The script needs 5 arguments.
 
